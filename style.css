@@ -1,0 +1,258 @@
+.container {
+    width: 1117px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+.circle
+{
+    width: 20px;
+    height: 20px;
+    background-color: #9c69e2;
+    border-radius: 20px;
+    margin-right: 5px;
+    align-self: flex-end;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: #4B5D68;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    margin: 0 20px;
+}
+
+
+.container.header
+{
+    display: flex;
+    align-items: center;
+}
+
+.menu
+{
+    margin-left: 100px;
+}
+
+.logo
+{
+    display: flex;
+}
+
+.ellipse
+{
+    width: 20px;
+    height: 35px;
+    background: #f063b8;
+    border-radius: 20px;
+}
+
+
+button.btn_demo
+{
+    width: 210px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px
+        rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+button a
+{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    letter-spacing: 0.005em;
+}
+
+.line
+{
+    width: 20px;
+    height: 0px;
+    border: 1px solid #9c69e2;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.arrowhead
+{
+    
+    border: solid #9c69e2;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: -7px;
+}
+
+.container.first_section
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.tresc_1
+{
+    width: 1117px;
+    height: 100vh;
+}
+
+.container.first_section h1
+{
+    width: 645px;
+    font-family: Pontano Sans;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 80px;
+    line-height: 110%;
+    color: #212353; 
+    
+}
+
+.container.first_section h2
+{
+    width: 380px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68; 
+}
+
+button.btn_more
+{
+    width: 170px;
+    height: 60px;
+    background: #9c69e2;
+    border-radius: 50px;
+    border: none;
+    margin-top: 35px;
+}
+
+.img_1
+{
+    background-image: url(image1.svg);
+    background-size: cover;
+    width: 885px;
+    height: 468px;
+    float: right;
+    margin-top: -250px;
+    
+}
+
+.rectangle
+{
+    width: 100%;
+    height: 560px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.container.second_section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container.second_section h1
+{
+    display: flex;
+    width: 475px;
+    height: 100px;
+    font-family: Pontano Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+    justify-self:flex-end;
+    flex-basis: 30%;
+}
+
+.container.second_section h2
+{
+    
+    display: flex;
+    width: 474px;
+    height: 170px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    align-self: flex-end;
+    justify-self: flex-start;
+   
+}
+
+.img_2
+{
+    background-image: url(image2.svg);
+    
+    width: 500px;
+    height: auto;
+    display: flex;
+}
+
+.tresc
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container.third_section
+{   margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#features
+{
+    font-family: Pontano Savs;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.container.third_section h2
+{
+    width: 584px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    text-align: center;
+}
