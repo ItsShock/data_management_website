@@ -523,6 +523,20 @@ h2.just_like_h2
     justify-content: space-between;
 }
 
+.ellipses .li_1
+{
+    color: #f063b8; 
+    width: 15px; 
+    height: 15px;
+}
+
+.ellipses .li_others
+{
+    width: 5px; 
+    height: 5px; 
+    color: #fff
+}
+
 .slider
 {
     margin-right: 90px;
@@ -769,4 +783,15 @@ color: #212353;
 {
     display: flex;
     justify-content: space-between;
+}
+
+.imgf
+{
+    margin-left: 4px;
+    margin-right: 5px;
+}
+
+.imgt
+{
+    margin-right: 5px;
 }
